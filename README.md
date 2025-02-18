@@ -12,6 +12,6 @@ This AI-powered app helps you generate **unique and catchy restaurant names** ba
 
 ## **🔗 Try It Out!**  
 Check out the live tool here:  
-### 👉 AI RESTAURANT NAME GENERATOR :   
+#### 👉 AI RESTAURANT NAME GENERATOR :  https://restaurant-name-generator-app.streamlit.app/
 
 Start your restaurant journey with the perfect name and menu today! 🚀🍽️
