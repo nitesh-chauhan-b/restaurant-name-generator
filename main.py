@@ -54,7 +54,6 @@ def get_res_details(cuisine):
 #Creating UI for APP
 
 import streamlit as st
-import langchain_helper
 #Title
 st.title("Restaurant Name Generator")
 
@@ -75,10 +74,10 @@ if process:
     if cuisine or cuisine2:
         #Creating a res name and menu_items
         if cuisine:
-            response = langchain_helper.get_res_details(cuisine)
+            response = get_res_details(cuisine)
             st.write(f"**{cuisine} Food Restaurant**")
         else:
-            response = langchain_helper.get_res_details(cuisine2)
+            response = get_res_details(cuisine2)
             st.write(f"**{cuisine2} Food Restaurant**")
         st.header(response["restaurant_name"].strip())
         menu_items = response["menu_items"].strip().split(",")
